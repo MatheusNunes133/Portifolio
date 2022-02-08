@@ -9,13 +9,16 @@ body{
   background: linear-gradient(45deg, rgb(37, 36, 39), rgb(99, 40, 236));
   background-repeat: no-repeat;
   height: 100%;
+  width: 100%;
 }
 
 /* Configurando menu bar*/
 .container-fluid{
+  color: black;
   box-shadow: -2px 2px 20px 4px;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: rgba(55, 12, 110, 0.8)
 }
 
 /* Ajustando menu e imagem do menu */
@@ -49,6 +52,9 @@ body{
 /* Colocando o menu no topo */
 .navbar{
   padding-top: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* Ajustando seções */
@@ -82,10 +88,11 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 15vh;
+  height: 100vh;
   font-size: 13pt;
   color: white;
   padding: 0 5vw;
+  margin-bottom: 20vh;
 }
 
 #apresetation--info{
@@ -94,19 +101,4 @@ body{
 
 #apresentation--portifolio img{
   height: 300px;
-}
-
-#quemSouEu{
-  margin-top: 25vh;
-  padding-left: 3vw;
-  color: white;
-}
-
-#quemSouEu h1{
-  margin-bottom: 30px;
-}
-
-#quemSouEu p{
-  text-indent: 15px;
-  text-align: justify;
 }
