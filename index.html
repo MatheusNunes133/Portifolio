@@ -10,6 +10,10 @@
   
   <!-- Linkando arquivo q sobresrcreve algns estilos do bootstrap -->
   <link rel="stylesheet" href="./css/index.css">
+
+  <!-- Linkando arquivo onde contém as configurações da seção "Quem sou eu?" -->
+  <link rel="stylesheet" href="./css/quemSou.css">
+
   <title>Portifólio</title>
 </head>
 <body>
@@ -24,13 +28,13 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#apresentation">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#quemSouEu">Quem sou eu?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projetos</a>
+              <a class="nav-link" href="#projetos">Projetos</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link" href="#">Conhecimentos</a>
@@ -60,12 +64,16 @@
 
   <section id="quemSouEu">
     <h1>Quem sou eu?</h1>
-
-    <p>
-      Eu me chamo Matheus Nunes Miguel, atualmente tenho 19 anos. Sou formado em informática pela Ecit Nicéa Claudino  <br />
-      na cidade de Cajazeiras-PB e estou cursando o curso superior de Análise e Desenvolvimento de Sistemas ni IFPB campus Cajazeiras
-
-    </p>
+    <div id="quemSouEu--apresentation">
+      <img src="./assets/images/perfil.jpg" alt="Matheus Nunes">
+      <p>
+        Eu me chamo Matheus Nunes Miguel, atualmente tenho 19 anos. Sou formado em informática pela Ecit Nicéa Claudino
+        na cidade de Cajazeiras-PB e estou cursando o curso superior de Análise e Desenvolvimento de Sistemas no IFPB campus Cajazeiras.
+        Atualmente me encontro como Trainee da empresa júnior Loopis - Soluções Tecnológicas.
+        Gosto muito da área de TI, sempre demonstrei curiosidade para entender como que funcionavam os aplicativos e aplicações,
+        estou em constante aprendizado, sempre em bsca de melhoras meus conhecimentos e habilidades
+      </p>
+  </div>
   </section>
 
 <!-- Scripts do Bootstrap -->
