@@ -1,0 +1,112 @@
+/* Configurações globais da página */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(45deg, rgb(37, 36, 39), rgb(99, 40, 236));
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+/* Configurando menu bar*/
+.container-fluid{
+  box-shadow: -2px 2px 20px 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Ajustando menu e imagem do menu */
+.navbar-brand{
+  display: flex;
+  align-items: center;
+}
+
+.container-fluid img{
+  height: 50px;
+  padding-right: 5px;
+}
+
+/* Shadow da parte de baixo do menu */
+.bg-light{
+  --bs-bg-opacity: 0;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+
+/* Seções de portifólio alinhadas a direita*/
+.navbar-expand-lg .navbar-collapse {
+  justify-content: right;
+}
+
+/* Seções de portifólio*/
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link{
+  border-bottom: 2px solid rgb(134, 70, 238);
+  font-weight: 600
+}
+
+/* Colocando o menu no topo */
+.navbar{
+  padding-top: 0;
+}
+
+/* Ajustando seções */
+.navbar-expand-lg .navbar-collapse{
+  padding-right: 4vw;
+}
+
+/* Alterando cores da seções */
+.navbar-light .navbar-nav .nav-link{
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  transition: all ease 0.5s;
+}
+
+/* Hover das cores das seções */
+.navbar-light .navbar-nav .nav-link:hover{
+  color: rgba(0,0,0,.9);
+}
+
+/* Configurando botão do menu responsivo */
+.navbar-light .navbar-toggler{
+  border: none;
+}
+
+/* Configurando botão do menu responsivo: sem bordas */
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+#apresentation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15vh;
+  font-size: 13pt;
+  color: white;
+  padding: 0 5vw;
+}
+
+#apresetation--info{
+  margin-left:  5vw;
+}
+
+#apresentation--portifolio img{
+  height: 300px;
+}
+
+#quemSouEu{
+  margin-top: 25vh;
+  padding-left: 3vw;
+  color: white;
+}
+
+#quemSouEu h1{
+  margin-bottom: 30px;
+}
+
+#quemSouEu p{
+  text-indent: 15px;
+  text-align: justify;
+}
