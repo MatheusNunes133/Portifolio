@@ -1,0 +1,38 @@
+#footer{
+  padding: 10vw 5vw 10vh 5vw;
+  height: auto;
+  background-color: black;
+}
+
+.footer--container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#footer--comuniacao{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#footer--comuniacao img{
+  height: 70px;
+  margin-right: 3vw;
+}
+
+.comunication{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer--container h4{
+  color: white;
+}
+
+.comunication h5{
+  margin-bottom: 8vh;
+  color: white;
+}
