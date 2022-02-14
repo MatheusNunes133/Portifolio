@@ -102,3 +102,16 @@ body{
 #apresentation--portifolio img{
   height: 300px;
 }
+
+.navbar-light .navbar-brand{
+  color:white;
+  transition: all ease 0.3s;
+}
+
+.navbar-light .navbar-brand:hover{
+  color: black;
+}
+
+main{
+  width: 100%;
+}
