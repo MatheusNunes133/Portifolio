@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Adicionando icone -->
+  <link rel="shortcut icon" href="./assets/images/portifolio.png" type="image/x-icon">
+
   <!-- Linkando Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -24,6 +27,10 @@
 
   <!-- Linkando arquivo onde contém as configurações do rodapé -->
   <link rel="stylesheet" href="./css/footer.css">
+
+  <!-- Linkando arquvi onde ontém as configurações de responsividade -->
+  <link rel="stylesheet" href="./css/mediaScreen.css">
+
   <title>Portifólio</title>
 </head>
 
@@ -49,13 +56,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="#projetos">Projetos</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item">
                 <a class="nav-link" href="#conhecimentos">Conhecimentos</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
               </li>
             </ul>
           </div>
@@ -64,13 +66,12 @@
     </section>
 
     <section id="apresentation">
-      <div id="apresetation--info">
-        Bem-Vindo, eu sou
-        <h1>Matheus Nunes</h1>
-        Trainee da Loopis - Soluções Tecnológicas.
-      </div>
-
-      <div id="apresentation--portifolio">
+      <div class="apresentation-container">
+        <div>
+          Bem-Vindo, eu sou
+          <h1>Matheus Nunes</h1>
+          Trainee da Loopis - Soluções Tecnológicas.
+        </div>
         <img src="./assets/images/portifolio.png" alt="Portifólio">
       </div>
     </section>
