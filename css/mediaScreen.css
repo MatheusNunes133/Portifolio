@@ -1,0 +1,30 @@
+@media screen and (max-width: 600px) {
+  body{
+    background-color: red;
+  }
+  #quemSouEu--apresentation{
+    display: flex;
+    flex-direction: column;
+  }
+  #quemSouEu--apresentation p{
+    margin-top: 5vh;
+  }
+
+  #conhecimentos--container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #conhecimentos--cards{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #show--projects--container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #show--projects--container a{
+    margin-bottom: 5vh;
+  }
+}
