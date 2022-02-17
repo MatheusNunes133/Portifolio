@@ -1,7 +1,7 @@
 :root{
   --color-orange: #FF8C42;
   --color-acid-green: #A5BE00;
-  --color-black: #000000;
+  --color-black: #212121;
   --color-blue: #007EA7;
 }
 
@@ -11,7 +11,7 @@
   padding: 8vh 3vw;
   box-shadow: 0px 0px 10px 2px var(--color-orange);
   margin-bottom: 20vh;
-  height: 100vh;
+  height: 100%;
 }
 
 #projetos h1{
@@ -24,7 +24,6 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
 }
 
 a{
@@ -34,7 +33,7 @@ a{
 a .show--projects{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: initial;
   padding: 15px 25px;
   border-radius: 20px;
@@ -49,7 +48,6 @@ a .show--projects{
 .show--projects:hover{
   border: 1px solid var(--color-orange);
   transform: scale(1.2);
-  z-index: 9999;
 }
 
 .show--projects h5{
