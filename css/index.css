@@ -5,20 +5,30 @@
   box-sizing: border-box;
 }
 
+
+/* Variáveis */
+:root{
+  --color-orange: #FF8C42;
+  --color-acid-green: #A5BE00;
+  --color-black: #000000;
+  --color-blue: #007EA7;
+}
+
 body{
-  background: linear-gradient(45deg, rgb(37, 36, 39), rgb(99, 40, 236));
+  background-color: var(--color-black);
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  color: var(--color-orange);
 }
 
 /* Configurando menu bar*/
 .container-fluid{
-  color: black;
-  box-shadow: -2px 2px 20px 4px;
+  color: var(--color-orange);
+  box-shadow: -1px -8px 20px 4px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgba(55, 12, 110, 0.8)
+  background-color: var(--color-black)
 }
 
 /* Ajustando menu e imagem do menu */
@@ -64,14 +74,14 @@ body{
 
 /* Alterando cores da seções */
 .navbar-light .navbar-nav .nav-link{
-  color: rgb(255, 255, 255);
+  color: var(--color-orange);
   font-weight: 600;
   transition: all ease 0.5s;
 }
 
 /* Hover das cores das seções */
 .navbar-light .navbar-nav .nav-link:hover{
-  color: rgba(0,0,0,.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /* Configurando botão do menu responsivo */
@@ -99,17 +109,21 @@ body{
   margin-left:  5vw;
 }
 
+#apresetation--info h1{
+  color: var(--color-orange);
+}
+
 #apresentation--portifolio img{
   height: 300px;
 }
 
 .navbar-light .navbar-brand{
-  color:white;
+  color:var(--color-orange);
   transition: all ease 0.3s;
 }
 
 .navbar-light .navbar-brand:hover{
-  color: black;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 main{

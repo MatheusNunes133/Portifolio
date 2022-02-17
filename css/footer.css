@@ -1,7 +1,15 @@
+:root{
+  --color-orange: #FF8C42;
+  --color-acid-green: #A5BE00;
+  --color-black: #000000;
+  --color-blue: #007EA7;
+}
+
+
 #footer{
   padding: 10vw 5vw 10vh 5vw;
   height: auto;
-  background-color: black;
+  background-color: var(--color-black);
 }
 
 .footer--container{
@@ -29,10 +37,10 @@
 }
 
 .footer--container h4{
-  color: white;
+  color: var(--color-orange);
 }
 
 .comunication h5{
   margin-bottom: 8vh;
-  color: white;
+  color: var(--color-orange);
 }
