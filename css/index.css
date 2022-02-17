@@ -22,6 +22,10 @@ body{
   color: var(--color-orange);
 }
 
+#header{
+  height: 81px;
+}
+
 /* Configurando menu bar*/
 .container-fluid{
   color: var(--color-orange);
@@ -65,6 +69,7 @@ body{
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 99999999;
 }
 
 /* Ajustando seções */
@@ -95,26 +100,30 @@ body{
 }
 
 #apresentation{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100vh;
-  font-size: 13pt;
-  color: white;
-  padding: 0 5vw;
+  background-color: var(--color-black);
+  padding: 18vh 3vw;
+  box-shadow: 0px 0px 10px 2px;
   margin-bottom: 20vh;
+  height: 100vh;
 }
 
-#apresetation--info{
+.apresentation-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.apresetation-container div{
   margin-left:  5vw;
 }
 
-#apresetation--info h1{
+.apresetation-container h1{
   color: var(--color-orange);
 }
 
-#apresentation--portifolio img{
-  height: 300px;
+.apresentation-container img{
+  width: 30%;
 }
 
 .navbar-light .navbar-brand{
